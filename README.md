@@ -71,3 +71,7 @@ utils/                     # packaging helpers (package_skill.py, quick_validate
 - **Local config convention**: anything ending in `.local.json` is gitignored. If you add
   machine-specific config, commit a redacted `*.example` companion, never the real file.
 - `dist/` (build output) is gitignored; the packaged `.skill` is published via Releases.
+
+## License
+
+[MIT](LICENSE) © 2026 Jason J. Garcia
