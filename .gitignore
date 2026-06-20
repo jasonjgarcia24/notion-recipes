@@ -1,0 +1,46 @@
+# --- Secrets & credentials (never commit — this repo is public) ---
+.env
+.env.*
+!.env.example
+*.token
+*.key
+*.pem
+token.json
+tokens.json
+credentials.json
+secret*.json
+service-account*.json
+
+# Local-only config holding REAL Notion IDs / workspace details.
+# Commit a redacted *.example version instead.
+.notion-local.json
+notion-local.json
+*.local.json
+.claude/settings.local.json
+
+# --- Node (if builder/test scripts use it) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Python (if builder/test scripts use it) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- Packaging output ---
+*.zip
+dist/
+build/
